@@ -3,8 +3,8 @@
 .toggle {
   display: grid;
   grid-template-columns: 1fr 3rem;
-  gap: rem(4.8) rem(12);
   border: none;
+  margin: 0;
 
   label {
     font-size: rem(14);
@@ -23,7 +23,7 @@
   }
 
   input[type='radio'] {
-    opacity: 0%;
+    opacity: 0;
     margin: 0 rem(-2) 0 rem(-2);
     width: rem(24);
     height: rem(24);
@@ -41,6 +41,7 @@
     top: 0;
     border-radius: rem(12);
     background: var(--toggle-bg);
+    pointer-events: none;
   }
 
   &__button {

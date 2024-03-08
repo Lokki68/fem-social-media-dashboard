@@ -53,3 +53,27 @@
     --toggle-button: var(--dark-bg);
   }
 }
+
+body.light {
+  --background: var(--light-bg);
+  --text-color: var(--light-text2);
+  --text-color1: var(--light-text1);
+  --card-bg: var(--light-card);
+  --card-hover: var(--light-card-hover);
+  --toggle: var(--light-toggle);
+  --toggle-bg: var(--light-toggle-bg);
+  --toggle-button: var(--light-toggle-button);
+}
+
+body.dark {
+  --background: var(--dark-bg);
+  --text-color: var(--dark-text2);
+  --text-color1: var(--dark-text1);
+  --card-bg: var(--dark-card);
+  --card-hover: var(--dark-card-hover);
+  --toggle: var(--light-toggle);
+  --toggle-bg: linear-gradient(225deg,
+      var(--toggle-bg-start) 0%,
+      var(--toggle-bg-end) 100%);
+  --toggle-button: var(--dark-bg);
+}
