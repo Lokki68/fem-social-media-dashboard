@@ -72,18 +72,17 @@
       aria-label="Theme toggle"
       role="radiogroup"
     >
-
+      <label for="dark">
+        Dark mode
+        <span class="visibility-hidden">on</span>
+      </label>
       <div class="toggle__wrapper">
         <input
           type="radio"
           name="theme"
           id="dark"
         />
-        <input
-          type="radio"
-          name="theme"
-          id="system"
-        />
+
         <input
           type="radio"
           name="theme"
@@ -98,10 +97,10 @@
           class="toggle__button"
         ></span>
       </div>
-
-      <label for="dark">Dark</label>
-      <label for="system">System</label>
-      <label for="light">Light</label>
+      <label
+        for="light"
+        class="visibility-hidden"
+      >Dark mode Off</label>
 
     </fieldset>
   </header>
