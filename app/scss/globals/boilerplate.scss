@@ -13,11 +13,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-inter);
-  background: var(--dark-bg);
-  color: var(--dark-text2);
+  background: var(--background);
+  color: var(--text-color);
 }
 
-.visibility-hidden {
+.visually-hidden {
   position: absolute;
   left: -100000px;
   top: auto;
