@@ -1,2 +1,2 @@
-"use strict";var radioButtons=document.querySelectorAll(".toggle__wrapper input");console.log(radioButtons);for(var i=0;i<radioButtons.length;i++)radioButtons[i].addEventListener("click",(function(){document.querySelector("#dark").checked?document.querySelector("body").classList="dark":document.querySelector("body").classList="light"}));
+"use strict";for(var radioButtons=document.querySelectorAll(".toggle__wrapper input"),i=0;i<radioButtons.length;i++)radioButtons[i].addEventListener("click",(function(){document.querySelector("#dark").checked?document.querySelector("body").classList="dark":document.querySelector("body").classList="light"}));
 //# sourceMappingURL=script.js.map
